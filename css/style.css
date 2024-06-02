@@ -1,0 +1,63 @@
+* {
+  text-align: center;
+}
+/*--------------------Header--------------------*/
+#bg-video {
+  width: 100%;
+  position: relative;
+  left: 0;
+  top: -100px;
+  min-width: 800px;
+}
+nav {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 10px;
+  font-weight: 700;
+}
+.nav-item a,
+i {
+  color: white;
+}
+.nav-item a:hover {
+  color: white;
+  font-size: 110%;
+}
+.main-content {
+  color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  margin: 10px;
+  padding-top: 20%;
+  padding-bottom: 20%;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+section h1 {
+  font-size: 80px;
+  font-weight: 600;
+}
+/*--------------------Tech Experience--------------------*/
+section h2 {
+    padding: 20px;
+  font-size: 45px;
+  font-weight: 600;
+}
+.tech-exp h3 {
+  color: black;
+}
+.tech-exp button {
+  width: 200px;
+  height: 200px;
+  border-color: gray;
+}
+.tech-exp button:hover {
+  background-color: #f5f6fa;
+  border-color: gray;
+}
